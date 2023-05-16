@@ -5,12 +5,11 @@ body{
 
 h1 {
   text-decoration: underline;
-  text
 }
 
 li{
  max-width: 600px;
-  min-wifth: 400px;
+ min-wifth: 400px;
 }
 
 span{
