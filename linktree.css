@@ -14,7 +14,7 @@ li{
  min-wifth: 400px;
 }
 
-a:hover{
+a .red:hover{
     color: grey;
     font-weight: bold;
 }
