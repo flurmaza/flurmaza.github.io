@@ -16,8 +16,8 @@ li{
  min-wifth: 400px;
 }
 
-a:hover{
-    color: red;
+li a:hover{
+    color: black;
 }
 
 span{
