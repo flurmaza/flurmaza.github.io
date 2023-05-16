@@ -1,5 +1,6 @@
 h1 {
   text-decoration: underline;
+  text
 }
 
 li{
@@ -13,4 +14,10 @@ span{
 
 nav{
   color: gray;
+  border-color: gray;
+  border: solid;
+}
+
+.red{
+color: red;
 }
