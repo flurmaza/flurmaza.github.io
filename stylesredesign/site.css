@@ -1,0 +1,368 @@
+body{
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #683d32;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #84b974;
+}
+
+header img{
+    max-width: 70px;
+    min-width: 30px;
+    width: 100%;
+}
+
+main a:hover{
+    color:#2b661b;
+}
+
+main a:active{
+    color: #082c13;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+}
+
+nav a{
+    display: block;
+    color: #f5f5dc;
+    text-shadow: 2px 2px 3px#5f7c56;
+    font-size: larger;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+}
+
+nav a:hover{
+    color:#61725c;
+    border-width: 2px;
+}
+
+nav a:active{
+    color:#305225;
+    border-width: 3px;
+    text-decoration: underline;
+}
+
+.hoursaddress{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 7px;;
+    padding: 5px;
+}
+
+.hoursaddress .hours{
+    padding-left: 20px;
+    margin-right: 15px;
+}
+
+.hoursaddress .address{
+    display: block;
+    border-right: dotted;
+    border-width: 2px;
+    padding-left: 7px;
+}
+
+a{
+    color: #459e2a;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    max-height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 10px;
+    background-color: #f5f5dc;
+}
+
+.centered{
+    display: block;
+    max-width: 400px;
+    margin: auto auto;
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+p{
+    margin: 0px;
+}
+
+.nounderline{
+    text-decoration: none;
+}
+
+.vendorimages{
+    display: flex;
+    flex-direction: row;
+}
+
+.vendorimages picture{
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5px;
+}
+
+.vendorimages img{
+    max-width: 250px;
+    min-width: 50px;
+    width: 100%;
+}
+
+.vendors{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 1px;
+    margin: 7px;
+    background-color: #f5f5dc;
+    border-radius: 5px;
+    font-size: small;
+}
+
+footer{
+    border-top: solid;
+    border-width: 1px;
+    background-color: #84b974;
+}
+
+footer .hours{
+    margin: 15px;
+    color: #f5f5dc;
+    text-shadow: 2px 2px 3px#5f7c56;
+}
+
+.directions{
+    display: block;
+    border: solid;
+    border-width: 1px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    color: #2c581f;
+    background-color: #f5f5dc;
+}
+
+.directions:hover{
+    border: solid;
+    border-width: 2px;
+}
+
+.directions:active{
+    border: solid;
+    border-width: 3px;
+}
+
+.route{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cornellbold{
+    font-weight: bold;
+    color: #c73a3a;
+}
+
+.ithacabold{
+    font-weight: bold;
+    color:#4d4db8;
+}
+
+.tcatroutes li{
+    margin-bottom: 7px;
+}
+
+@media (min-width: 300px){
+    .vendors{
+        font-size:medium;
+    }
+}
+
+@media (min-width: 600px){
+
+    body{
+        max-width: 800px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: white
+    }
+
+    header img{
+        display: block;
+        max-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav{
+        background-color: #84b974;
+    }
+
+    nav a{
+        display: block;
+        color: beige;
+        font-size: larger;
+        text-decoration: none;
+        padding-left: 20px;
+        margin: 5px;
+        background-color:#84b974;
+        border: none;
+    }
+
+    .horizontalwide{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 10px;
+        min-height: 700px;
+    }
+
+    section{
+        display: block;
+        margin-right: 20px;
+        width: 100%;
+        max-width: 550px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    section img{
+        display: block;
+        max-width: 500px;
+        min-width: 300px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sidebar{
+        display: block;
+        max-width: 500px;
+        min-width: 200px;
+        width: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .titleimages{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vendorimages{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vendorimages img{
+        display: block;
+        width: 250px;
+        height: 100%;
+    }
+
+    .vendorimages picture{
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .vendors{
+        padding: 10px;
+        margin: 5px;
+        font-size: medium;
+    }
+
+    footer .hours{
+        font-size: larger;
+        margin-right: 50px;
+    }
+
+    footer .directions{
+        font-size: larger;
+    }
+
+    .map img{
+        display: block;
+        max-height: 600px;
+        min-height: 200px;
+        width: 100%;
+    }
+
+    .hoursaddress{
+        max-width: 800px;
+    }
+
+    .address{
+        padding-right: 50px;
+    }
+}
+
+@media (min-width:800px){
+    body{
+        display: flex;
+        flex-direction: row;
+        max-width: none;
+        height: 100%;
+    }
+
+    aside{
+        display: block;
+        width: 100%;
+        flex-grow: 1;
+        background-color: #b5e6a6;
+    }
+
+    .middle{
+        min-width: 800px;
+        max-width: 1500px;
+        min-height: 1000px;
+        flex-grow: 1;
+        padding: 15px;
+    }
+}
