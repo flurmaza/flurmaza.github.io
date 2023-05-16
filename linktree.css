@@ -1,6 +1,8 @@
 body{
     margin: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1000px;
+    min-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
