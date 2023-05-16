@@ -12,12 +12,10 @@ span{
  text-decoration: underline; 
 }
 
-nav{
-  color: gray;
-  border-color: gray;
+nav ul{
   border: solid;
 }
 
 .red{
-color: red;
+color: #610d14;
 }
