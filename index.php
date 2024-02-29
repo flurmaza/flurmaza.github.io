@@ -2,9 +2,6 @@
 <head>
     <title> Serafinn Urmaza | Web Design Portfolio </title>
     <link href= "linktree.css" type="text/css" rel="stylesheet" />
-    <meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
 </head>
 
 <body>
@@ -17,7 +14,7 @@
             <li><span>Intended Audience:</span> Individuals who are already familiar with my artwork and are looking to support my work further.</li>
             <li><span>Web Design Goal:</span> To find a balance between showing my artistic voice and providing my audience with the information they came to my website for. It is very important for me to show my artistic voice through my website because it is a one way medium for my audience-potential customers-to understand why I, as an artist and person, am unique in comparison to other artists</li>
         </ul>
-        <li><a href="indexredesign.html"><span class="red">Ithaca Apple Harvest Festival Website Redesign (2022)</span></a></li>
+        <li><a href="redesign/indexredesign.html"><span class="red">Ithaca Apple Harvest Festival Website Redesign (2022)</span></a></li>
         <ul>
             <li><span>Intended Audience:</span> College students from the Ithaca area who are interested in attending the Ithaca Apple Harvest Festival.</li>
             <li><span>Web Design Goal:</span> Utilize familiar design patterns to create a an aesthetically pleasing and simple website that allows busy college students to eaily find desired information about the Ithaca Apple Harvest Festival.</li>
