@@ -5,7 +5,8 @@ body {
     padding: 40px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("/website-content/website-images/background.png"); /* Source: (My Portolio) Grace Urmaza */
+    background-image: url("/website-content/website-images/background.png");
+    /* Source: (My Portolio) Grace Urmaza */
     background-repeat: repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -15,36 +16,36 @@ main {
     padding: 10px;
 }
 
-h2{
+h2 {
     color: #864747;
     text-decoration: underline;
     margin-left: 15px;
 }
 
-h3{
+h3 {
     color: #864747;
     margin: 15px;
 }
 
-h4{
+h4 {
     color: #864747;
     margin: 15px;
 }
 
 p {
-    color:#531b1b;
+    color: #531b1b;
     margin: 15px;
 }
 
-ul a{
-    color:#526e5f;
+ul a {
+    color: #526e5f;
 }
 
 li {
     color: #526e5f;
 }
 
-.topofpage{
+.topofpage {
     max-width: 1000px;
     min-width: 300px;
     border-bottom: solid;
@@ -67,19 +68,19 @@ li {
     border-color: #d89595;
 }
 
-.header figure{
+.header figure {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.header figure img{
+.header figure img {
     max-width: 398px;
     min-width: 150px;
     width: 100%;
 }
 
-picture img{
+picture img {
     margin-left: 25px;
     margin-top: 25px;
     border: solid;
@@ -88,37 +89,37 @@ picture img{
     border-color: #c47070;
 }
 
-.navigationbar nav ul{
+.navigationbar nav ul {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding-left: 0;
 }
 
-.navigationbar{
+.navigationbar {
     background-color: #c5d4bd;
     padding: 1px;
     min-width: 300px
 }
 
-.navigationbar img{
+.navigationbar img {
     border-left: solid;
-    border-color:#526e5f;
+    border-color: #526e5f;
     padding: 2px;
 }
 
-.first img{
+.first img {
     border-style: none;
     border: none;
- }
+}
 
-.navigationbar li img:hover{
+.navigationbar li img:hover {
     background-color: #fff8f8;
 }
 
-.navigationbar li:active{
+.navigationbar li:active {
     background-color: #fff8f8;
     border: solid;
     border-color: #526e5f;
@@ -126,62 +127,69 @@ picture img{
     border-radius: 3px;
 }
 
-.gallery{
+.gallery {
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.frame{
+.frame {
     border: solid;
     border-width: 10px;
-    border-color:#9b7878;
+    border-color: #9b7878;
     border-style: inset;
     border-radius: 10px;
 }
 
-.gallery figure{
+.gallery figure {
     text-align: center;
     margin: 7px;
 }
 
-.gallery figcaption{
-    color:#531f1f;
+.gallery figcaption {
+    color: #531f1f;
     text-align: center;
     margin-top: 4px;
     margin-bottom: 15px;
     max-width: 250px;
 }
 
-.fineartpaintings{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: center;
-}
-
-.charcoaldrawings{
+.fineartpaintings {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.digitalpaintings{
+.charcoaldrawings {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
- p a{
+.digitalpaintings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artgallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p a {
     color: #526e5f;
- }
+}
 
- p a:hover{
+p a:hover {
     color: #002914;
- }
+}
 
 footer {
     padding: 5px;
@@ -195,21 +203,21 @@ footer {
     border-color: #d89595;
     color: #d89595;
     border-bottom: solid;
-    border-bottom-color:#ffe9ec;
+    border-bottom-color: #ffe9ec;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
- }
+}
 
- footer ul{
+footer ul {
     display: flex;
     flex-direction: row;
     padding: 5px;
     border-radius: 2px;
     list-style: none;
     justify-content: center;
- }
+}
 
- .entiresmbar{
+.entiresmbar {
     display: flex;
     flex-direction: column;
     width: 250px;
@@ -217,32 +225,32 @@ footer {
     margin-right: auto;
 }
 
- .entiresmbar p{
-    color:#c47070;
+.entiresmbar p {
+    color: #c47070;
     padding: 3px;
     max-width: 300px;
     margin: 5px;
- }
+}
 
- .socialmediabar a{
-    color:#c47070;
- }
+.socialmediabar a {
+    color: #c47070;
+}
 
- .socialmediabar li{
+.socialmediabar li {
     color: #c47070;
     margin-top: 5px;
- }
+}
 
- .socialmediabar img:hover{
+.socialmediabar img:hover {
     background-color: #fff8f8;
     border: solid;
     border-width: 2px;
     border-color: #c95d5d;
     border-radius: 100%;
     padding: 3px;
- }
+}
 
-.socialmediabar img:active{
+.socialmediabar img:active {
     background-color: #fff8f8;
     border: solid;
     border-width: 2px;
@@ -250,61 +258,104 @@ footer {
 }
 
 cite {
-    color:#c5d4bd;
+    color: #c5d4bd;
     font-weight: lighter;
     text-align: left;
 }
 
-cite a{
-    color:#c5d4bd;
+cite a {
+    color: #c5d4bd;
 }
 
- .emailformat li{
-    color:#531f1f;
- }
+.emailformat li {
+    color: #531f1f;
+}
 
- .special {
+.special {
     border: dotted;
     border-width: 2px;
     border-radius: 5px;
     border-color: #531b1b;
     padding: 5px;
-    background-color:#fff8f8;
+    background-color: #fff8f8;
     margin-bottom: 25px;
     margin-top: 5px;
- }
+}
 
- .centered{
+.centered {
     text-align: center;
- }
+}
 
- .text{
+.text {
     display: block;
- }
+}
 
- .horizontal{
+.horizontal {
     display: flex;
     flex-direction: row;
- }
+}
 
- .aboutme figure{
+.aboutme figure {
     display: block;
- }
+}
 
- .dog{
+.dog {
     display: flex;
     flex-direction: row;
- }
+}
 
 .bold {
     font-weight: bold;
 }
 
-.question{
+.question {
     font-weight: lighter;
     margin-bottom: 2px;
 }
 
-.nostyle{
+.nostyle {
     text-decoration: none;
+}
+
+.form-chunk {
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+
+.form-chunk input {
+    margin-left: 2px;
+    margin-right 2px;
+}
+
+form {
+    margin: 5px;
+    background-color: #ffe9ec;
+    padding: 5px;
+}
+
+.right-align {
+    display: flex;
+    justify-content: flex-end
+}
+
+.active-page {
+    border: solid;
+    border-color: #526e5f;
+}
+
+input[type=submit] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #526e5f;
+    border-color: #526e5f;
+    background-color: #c5d4bd;
+    font-size: large;
+}
+
+input[type=submit]:hover {
+    background-color: #ffe9ec;
 }
