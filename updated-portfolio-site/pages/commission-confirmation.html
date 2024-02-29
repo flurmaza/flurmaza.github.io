@@ -13,7 +13,32 @@ $pagetitle = "Support Me"
         <link href="public/styles/site.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-    <?php include("glu3-project1/includes/header.php"); ?>
+    <div class="topofpage">
+        <div class="header">
+            <picture>
+                <!--Source: (logo.png) Grace Urmaza-->
+                <img src="public/website-content/website-images/logo.png">
+             </picture>
+            <figure>
+                <!--Source: (lightnamelogo.png) Grace Urmaza-->
+                <img src="public/website-content/website-images/lightnamelogo.png">
+            </figure>
+        </div>
+        <div class="navigationbar">
+            <nav>
+                <ul>
+                    <!--Source: (My Portolio) Grace Urmaza-->
+                    <li><a href="index.html"><img src="public/website-content/website-images/myportfolio.png" alt="My Portfolio"></a></li>
+                    <!--Source: (About Me) Grace Urmaza-->
+                    <li><a href="aboutme.html"><img src="public/website-content/website-images/aboutme.png" alt="About Me"></a></li>
+                    <!--Source: (FAQ Page) Grace Urmaza-->
+                    <li><a href="faqpage.html"><img src="public/website-content/website-images/faq.png" alt="Frequently Asked Questions"></a></li>
+                    <!--Source: (Support Me) Grace Urmaza-->
+                    <li><a href="supportme.html"><img src="public/website-content/website-images/supportme.png" alt="Support Me"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
     <main>
         <h3>Thank you for your commission, <?php echo htmlspecialchars($first_name); ?> <?php echo htmlspecialchars($last_name); ?>!</h3>
 
